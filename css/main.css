@@ -23,7 +23,7 @@ header {
 .header__title{
     font-weight: bold;
     color:black;
-    font-family:"Inter";
+    font-family:"Inter",sans-serif;
     font-size: 48px;
 }
 
