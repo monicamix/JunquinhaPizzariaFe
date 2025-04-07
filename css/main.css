@@ -1,0 +1,32 @@
+
+/* borda aplicada para todas as tags */
+
+/* *{
+    border: 1px solid black;
+} */
+
+/* importação da fonte no css*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Cor de fundo do cabeçalho */
+header {
+    width: 100vw;
+    height: 136px;
+    background-color:#E5F4FF;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.header__title{
+    font-weight: bold;
+    color:black;
+    font-family:"Inter";
+    font-size: 48px;
+}
+
+.header__title--blue{
+    color: blue;
+}
