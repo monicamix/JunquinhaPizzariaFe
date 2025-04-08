@@ -1,4 +1,4 @@
-
+/* MAIN,CSS */
 /* borda aplicada para todas as tags */
 
 /* *{
@@ -30,3 +30,32 @@ header {
 .header__title--blue{
     color: blue;
 }
+/* Footer */
+.footer{
+    width: 100vw;
+    height: 115px;
+    background-color:#E5F4FF;
+    display: flex;
+    gap: 192px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__columns{
+    width:16%;
+    text-align:center;
+}
+
+.footer__social{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer__social-icons i {
+    /* retira a linha */
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+
